@@ -16,3 +16,5 @@ end
 
 line.sub(/Perl/, 'Ruby') # replace first 'Perl' with 'Ruby' 
 line.gsub(/Python/, 'Ruby') # replace every 'Python' with 'Ruby'
+
+line.gsub(/Perl|Python/, 'Ruby') # replace every occurrence of Perl and Python with Ruby 
